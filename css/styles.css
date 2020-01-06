@@ -192,10 +192,10 @@ nav ul li a::before{position: absolute;bottom: -2px;left: 0;background: #000;hei
 .box05 .box05_ct .btn{width: 215px;margin: 0 auto}
 .box05 .box05_chat{background-color: #fed518;border-radius: 20px 0 20px 20px;box-shadow: 0px 7px 21px 5px rgba(6,6,6,0.09);padding: 20px 20px 10px;text-align: right;color: #fff;width: 180px;position: absolute;top: 30px;right: -50px}
 .box05 .box05_chat p{font-size: 18px;margin-bottom: 0}
-.box05 .box05_chat .icon{position: absolute;top: 0;right: -50px;}
+.box05 .box05_chat .icon{position: absolute;top: 0;right: -80px;}
 
 .box05 .box05_accept{background-color: #000;border-radius: 0 20px 20px 20px;box-shadow: 0px 7px 21px 5px rgba(6,6,6,0.09);left: -30px;padding: 20px 20px 10px;position: absolute;top: 150px;color: #fff;width: 160px}
-.box05 .box05_accept .icon{position: absolute;top: 0;left: -50px;}
+.box05 .box05_accept .icon{position: absolute;top: 0;left: -75px;}
 .box05 .box05_accept p{font-size: 18px;margin-bottom: 0}
 .box05 .box05_accept span,
 .box05 .box05_chat span{display: block;font-size: 24px;}
@@ -348,7 +348,7 @@ footer .foot_info address{font-size: 14px;text-align: right;line-height: 1.5em}
 
 /* WORK PAGE */
 .work_temp{overflow: hidden}
-.work_temp.bg1{background: #b0b2b7}
+.work_temp.bg1{background: #34226C}
 .work_temp.bg2{background: #da6c00;
 background: -moz-linear-gradient(45deg, #da6c00 1%, #ffbc1b 100%);
 background: -webkit-linear-gradient(45deg, #da6c00 1%,#ffbc1b 100%);
@@ -377,7 +377,17 @@ background: linear-gradient(45deg, #1ab501 1%,#1edd00 100%);}
 .work_temp .work_temp_txt p{font-size: 24px;margin-bottom: 15px;color: #000}
 .work_temp .work_temp_txt .ic{margin-bottom: 0}
 .work_temp .work_temp_txt .big{font-size: 54px;font-weight: bold;line-height: 1em;margin-bottom: 0;text-shadow: 0px 8px 21px rgba(6,6,6,0.26);margin-bottom: 15px;letter-spacing: 0.05em}
+.work_temp .work_temp_txt .big_1{font-size: 54px;font-weight: bold;line-height: 1em;margin-bottom: 0;text-shadow: 0px 8px 21px rgba(6,6,6,0.26);margin-bottom: 15px;letter-spacing: 0.05em;color: #FFF}
 .work_temp .work_temp_txt .btn a{background: transparent;color: #000}
+.work_temp .work_temp_img{right: 0;position: absolute;top: 100px;}
+
+.work_temp .inner{display: flex;padding: 210px 0 110px;position: relative;align-items: center;}
+.work_temp .work_temp_txt_white{width: 400px}
+.work_temp .work_temp_txt_white p{font-size: 24px;margin-bottom: 15px;color: #FFF}
+.work_temp .work_temp_txt_white .ic{margin-bottom: 0}
+.work_temp .work_temp_txt_white .big{font-size: 54px;font-weight: bold;line-height: 1em;margin-bottom: 0;text-shadow: 0px 8px 21px rgba(6,6,6,0.26);margin-bottom: 15px;letter-spacing: 0.05em}
+.work_temp .work_temp_txt_white .big_1{font-size: 54px;font-weight: bold;line-height: 1em;margin-bottom: 0;text-shadow: 0px 8px 21px rgba(6,6,6,0.26);margin-bottom: 15px;letter-spacing: 0.05em;color: #FFF}
+.work_temp .work_temp_txt_white .btn a{background: transparent;color: #FFF}
 .work_temp .work_temp_img{right: 0;position: absolute;top: 100px;}
 
 .work_temp.work_temp_r .inner{justify-content: flex-end;}
