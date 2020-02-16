@@ -9,7 +9,6 @@ nav ul li a:hover::before{opacity: 1;}
 
 .btn:hover::before{right: -25px}
 .work_temp .work_temp_txt .btn a:hover,
-.work_temp .work_temp_txt_white .btn a:hover,
 .btn a:hover{background: #ffd200;color: #000}
 .btn a:hover::after,
 .btn a:hover::before{width: calc(100% + 2px);height: calc(100% + 2px)}
