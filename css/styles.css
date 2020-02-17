@@ -54,7 +54,7 @@ td{line-height: 1.5em;font-size: 14px;}
 /*==========================================================================*/
 /*                               Header                                     */
 /*==========================================================================*/
-header{position: fixed;top: 0;left: 0;width: 100%;z-index: 9;}
+header{position: fixed;top: 0;left: 0;width: 100%;z-index: 9;background: #fff;}
 header.active{background: rgba(0,0,0,0.1);}
 nav{z-index: 6;}
 nav.active ul{border-bottom: none;}
@@ -165,7 +165,7 @@ nav ul li a::before{position: absolute;bottom: -2px;left: 0;background: #000;hei
 .box03 .box03_ct{}
 .box03 .box03_ct p{text-align: center;font-size: 18px;font-weight: 300}
 .box03 .box03_list{margin-top: 50px;}
-.box03 .box03_list ul{margin-right: 35px;display: flex;flex-direction: column;}
+.box03 .box03_list ul{display: flex;flex-direction: column;justify-content: center;align-items: center;}
 .box03 .box03_list ul li{width: 240px;height: 140px;border:1px solid #ececec;transition: all ease 0.5s;filter: grayscale(1);margin: 0 0 35px 0;display: flex;align-items: center;justify-content: center;}
 
 .box04{margin: 250px 0 300px;background: url('../images/box04_bg.png') center no-repeat;background-size: 1345px 279px;}
@@ -195,7 +195,7 @@ nav ul li a::before{position: absolute;bottom: -2px;left: 0;background: #000;hei
 .box05 .box05_chat .icon{position: absolute;top: 0;right: -50px;}
 
 .box05 .box05_accept{background-color: #000;border-radius: 0 20px 20px 20px;box-shadow: 0px 7px 21px 5px rgba(6,6,6,0.09);left: -30px;padding: 20px 20px 10px;position: absolute;top: 150px;color: #fff;width: 160px}
-.box05 .box05_accept .icon{position: absolute;top: 0;left: -50px;}
+.box05 .box05_accept .icon{position: absolute;top: 0;left: -50px;width: 40px}
 .box05 .box05_accept p{font-size: 18px;margin-bottom: 0}
 .box05 .box05_accept span,
 .box05 .box05_chat span{display: block;font-size: 24px;}
@@ -327,8 +327,9 @@ footer .foot_info address{font-size: 14px;text-align: right;line-height: 1.5em}
 .join_recruit ul li span{font-size: 18px;position: absolute;bottom: 30px;left: 0;width: 100%;color: #8a8989;}
 
 /* CONTACT PAGE */
-.contact_form{margin: 0 auto 200px;width: 700px;display: flex;justify-content: space-between;flex-wrap: wrap;}
-.contact_form p{width: 340px;}
+.contact_form{margin: 0 auto 100px;width: 400px;}
+.contact_form p{display: flex;align-items: center;width: 100%;}
+.contact_form p img{width: 40px;margin-right: 15px}
 .contact_form p input,
 .contact_form p select,
 .contact_form textarea{background: #fff;border: 1px solid #ececec;border-radius: 0px;display: inline-block;height: 54px;width: 100%;padding: 10px 20px;}
@@ -341,7 +342,7 @@ footer .foot_info address{font-size: 14px;text-align: right;line-height: 1.5em}
 .contact_form .contact_file p{width: 40%;margin-bottom: 0}
 .contact_form .contact_file p input{border:none;background: none;padding: 0;height: 100%;}
 
-.contact_info{text-align: center;}
+.contact_info{text-align: center;margin-bottom: 100px;}
 .contact_info .title h3{font-size: 54px}
 .contact_info .title p{font-size: 24px;}
 .contact_info p{font-size: 20px}

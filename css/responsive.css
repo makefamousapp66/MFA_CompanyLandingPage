@@ -219,6 +219,7 @@ nav ul li a:hover::before{opacity: 1;}
     .contact_form .contact_area{width: 290px;}
     .contact_form .contact_file{width: 290px;flex-direction: column;}
     .contact_form .contact_file p{width: 100%;margin-bottom: 15px;}
+    .contact_info{margin-bottom: 50px;}
     .contact_info .title p{font-size: 20px;}
     .contact_info p{font-size: 16px;}
 
