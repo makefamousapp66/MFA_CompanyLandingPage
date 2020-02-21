@@ -248,7 +248,7 @@ footer .foot_info address{font-size: 14px;text-align: right;line-height: 1.5em}
 .service_link ul li.current img{filter: grayscale(0)}
 .service_link ul li.current span{color: #000}
 
-.service_tab{}
+.service_tab{overflow: hidden}
 .service_tab .tab-content{height: 0;opacity: 0;visibility: hidden;width: 100%;position: absolute;top: 0;left: 0;transition: all ease 0.5s;padding-top: 40px;width: 800px;margin: 0 auto;}
 .service_tab .tab-content p{font-size: 18px;}
 .service_tab .tab-content.current::before{background: url('../images/service_txt_ic.png') center no-repeat;background-size: cover;width: 115px;height: 12px;position: absolute;top: 0;left: 0;content: '';}
