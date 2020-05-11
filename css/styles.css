@@ -506,7 +506,10 @@ background: linear-gradient(45deg, #1ab501 1%,#1edd00 100%);}
 .app_other .app_demo_img ul li:nth-child(n + 6){display: none;}
 
 
-
+#apps_demo .lb-container{padding: 0;display: flex;align-items: center;justify-content: center;text-align: center;}
+#apps_demo .lb-outerContainer{width: 100vw !important;height: 100vh !important;}
+#apps_demo .lightbox{position: fixed;top: 0 !important;width: 100vw;height: 100vh;overflow: hidden;}
+#apps_demo .lightbox .lb-image{height: auto !important;width: auto !important;max-width: 100%;max-height: 100%;}
 
 /* ALL LAST CHILD */
 .app_demo_item:last-child,
