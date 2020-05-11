@@ -453,14 +453,12 @@ background: linear-gradient(45deg, #1ab501 1%,#1edd00 100%);}
 .work_comment .avatar::before{width: 30px;height: 3px;position: absolute;bottom: 10px;left: calc(50% - 15px);content: '';background: #000;}
 .work_comment .name{font-size: 20px;font-weight: bold;color: #000;margin-bottom: 15px;}
 
-
 .work_comment.premise_ic .inner::before{background: url('../images/work_premise_ic.png') center no-repeat;}
 .work_comment.pinthub_ic .inner::before{background: url('../images/work_pinthub_ic.png') center no-repeat;}
 .work_comment.fish_ic .inner::before{background: url('../images/work_fish_ic.png') center no-repeat;}
 
 
 /* WORK PAGE BACKGROUND */
-
 #premise .work_intro{background: url('../images/work_premise_bg1.png') top center no-repeat;}
 #premise .work_client{background: url('../images/work_premise_bg2.png') top left no-repeat;background-position: -240px -190px;}
 #pinthub .work_intro{background: url('../images/work_pinthub_bg1.png') top center no-repeat;}
@@ -472,7 +470,47 @@ background: linear-gradient(45deg, #1ab501 1%,#1edd00 100%);}
 #appoint .work_intro{background: url('../images/work_appoint_bg1.png') top center no-repeat;}
 #appoint .work_client{background: url('../images/work_appoint_bg2.png') top left no-repeat;background-position: -240px -190px;}
 
+/* APPS DEMO PAGE */
+.app_demo_list{padding:50px 0 100px;border-top: 1px dashed #ccc}
+.app_demo_item{margin-bottom: 50px}
+.app_demo_item .app_demo_title{}
+.app_demo_item .app_demo_title dl{display: flex;justify-content: space-between;margin-bottom: 50px;}
+.app_demo_item .app_demo_title dt{width: 130px;height: 130px;}
+.app_demo_item .app_demo_title dt a{width: 100%;height: 100%;display: flex;align-items: center;justify-content: center;text-align: center;border-radius: 15px;overflow: hidden;}
+.app_demo_item .app_demo_title dt a img{max-width: 100%;max-height: 100%;width: auto;height: auto;}
+.app_demo_item .app_demo_title dd{width: calc(100% - 160px);}
+.app_demo_item .app_demo_title dd p{margin-bottom: 10px}
+.app_demo_item .app_demo_title dd .name{font-size: 24px;line-height: 1.2em;}
+.app_demo_item .app_demo_title dd .des{font-size: 16px}
+.app_demo_item .app_demo_title dd .company{font-size: 12px}
+.app_demo_item .app_demo_title dd .cate{border-radius: 30px;background: #1f1f1f;padding: 5px 15px;display: inline-block;text-align: center;margin-bottom: 0}
+.app_demo_item .app_demo_title dd .cate span{display: inline-block;color: #fff;position: relative;margin-right: 10px;padding-right: 10px;}
+.app_demo_item .app_demo_title dd .cate span::before{width: 1px;height: 100%;background: #fff;position: absolute;top: 0;right: 0;content: '';}
+.app_demo_item .app_demo_title dd .cate span:last-child{padding-right: 0;margin-right: 0;}
+.app_demo_item .app_demo_title dd .cate span:last-child::before{display: none}
+.app_demo_item .app_demo_title .ver{display: flex;flex-wrap: wrap;margin: 0 0 40px}
+.app_demo_item .app_demo_title .ver a{border-radius: 50px;border:1px solid #ccc;display: inline-block;padding: 5px 15px;text-align: center;margin-right: 20px;transition: all ease 0.2s;margin-bottom: 10px}
+
+.app_demo_item .app_demo_img{}
+.app_demo_item .app_demo_img ul{display: flex;flex-wrap: wrap;}
+.app_demo_item .app_demo_img ul li{width: calc((100% - 60px) / 5);margin:0 15px 15px 0;}
+.app_demo_item .app_demo_img ul li:nth-child(5n + 5){margin-right: 0}
+.app_demo_item .app_demo_img ul li a{display: flex;align-items: center;justify-content: center;text-align: center;width: 100%;height: 100%;border-radius: 15px;overflow: hidden;box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 1px, rgba(0, 0, 0, 0.1) 0px 1px 3px -2px, rgba(0, 0, 0, 0.15) 0px 5px 7px -5px;}
+
+.app_other{padding-top: 100px}
+.app_other .ttl{margin-bottom: 50px;}
+.app_other .app_demo_title dl{margin-bottom: 30px}
+.app_other .app_demo_title dt{width: 60px;height: 60px;}
+.app_other .app_demo_title dd{width: calc(100% - 90px)}
+.app_other .app_demo_img{}
+.app_other .app_demo_img ul li:nth-child(n + 6){display: none;}
+
+
+
+
 /* ALL LAST CHILD */
+.app_demo_item:last-child,
+.app_demo_item .app_demo_title dd p:last-child,
 #top_info p:last-child{margin-bottom: 0}
 
 
