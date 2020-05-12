@@ -21,6 +21,15 @@ $(document).ready(function() {
             $("nav ul").toggleClass("active");
             return false;
         });
+
+        if($(".app_demo_img").length) {
+            $('.app_demo_img li a').click(function() {
+                $('body').addClass('active')
+            });
+            $('#apps_demo .lb-close').click(function() {
+                $('body').removeClass('active')
+            });
+        }
     }
 
     $('.service_link ul li').click(function() {
@@ -33,17 +42,7 @@ $(document).ready(function() {
         $("#" + tab_id).addClass('current');
     });
 
-    if($(".app_demo_img").length) {
-        $('.app_demo_img li a').click(function() {
-            $('body').addClass('active')
-        });
-        $('#apps_demo .lb-close').click(function() {
-            $('body').removeClass('active')
-        });
 
-
-
-    }
 
     AOS.init({
         duration: 1000,
