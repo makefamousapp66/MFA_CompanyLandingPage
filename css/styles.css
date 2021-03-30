@@ -236,6 +236,7 @@ footer .foot_info address{font-size: 14px;text-align: right;line-height: 1.5em}
 #top_info h2{font-size: 52px;font-weight: bold;position: relative;padding-top: 15px;margin: 30px auto 15px;text-transform: capitalize;}
 #top_info h2::before{width: 50px;height: 4px;background: #000;position: absolute;top: 0;left: calc(50% - 25px);content: '';}
 #top_info p{font-size: 20px;margin:0 auto;width: 800px;}
+#top_info p a{font-size: 20px;margin:0 auto;width: 800px; color:#0000EE; text-decoration: underline;}
 
 /* SERVICES PAGE */
 .service_link{}
@@ -266,6 +267,7 @@ footer .foot_info address{font-size: 14px;text-align: right;line-height: 1.5em}
 .about_value ul li.ic4{background: url('../images/about_ic_4.png') top center no-repeat;background-position: 0px -27px}
 .about_value ul li p{margin-bottom: 0;color: #8a8989;font-size: 18px;}
 .about_value ul li .big{color: #000;font-size: 20px;margin-bottom: 15px;}
+.about_value ul li p a{color: #1F77B4;font-size: 20px;margin-bottom: 15px; text-decoration-line: underline;}
 
 .about_team{margin: 100px auto 0;}
 .about_team ul{display: flex;flex-wrap: wrap}
