@@ -54,7 +54,7 @@ td{line-height: 1.5em;font-size: 14px;}
 /*==========================================================================*/
 /*                               Header                                     */
 /*==========================================================================*/
-header{position: fixed;top: 0;left: 0;width: 100%;z-index: 9;}
+header{position: fixed;top: 0;left: 0;width: 100%;z-index: 9;background: #fff;}
 header.active{background: rgba(0,0,0,0.1);}
 nav{z-index: 6;}
 nav.active ul{border-bottom: none;}
@@ -165,7 +165,7 @@ nav ul li a::before{position: absolute;bottom: -2px;left: 0;background: #000;hei
 .box03 .box03_ct{}
 .box03 .box03_ct p{text-align: center;font-size: 18px;font-weight: 300}
 .box03 .box03_list{margin-top: 50px;}
-.box03 .box03_list ul{margin-right: 35px;display: flex;flex-direction: column;}
+.box03 .box03_list ul{display: flex;flex-direction: column;justify-content: center;align-items: center;}
 .box03 .box03_list ul li{width: 240px;height: 140px;border:1px solid #ececec;transition: all ease 0.5s;filter: grayscale(1);margin: 0 0 35px 0;display: flex;align-items: center;justify-content: center;}
 
 .box04{margin: 250px 0 300px;background: url('../images/box04_bg.png') center no-repeat;background-size: 1345px 279px;}
@@ -192,10 +192,10 @@ nav ul li a::before{position: absolute;bottom: -2px;left: 0;background: #000;hei
 .box05 .box05_ct .btn{width: 215px;margin: 0 auto}
 .box05 .box05_chat{background-color: #fed518;border-radius: 20px 0 20px 20px;box-shadow: 0px 7px 21px 5px rgba(6,6,6,0.09);padding: 20px 20px 10px;text-align: right;color: #fff;width: 180px;position: absolute;top: 30px;right: -50px}
 .box05 .box05_chat p{font-size: 18px;margin-bottom: 0}
-.box05 .box05_chat .icon{position: absolute;top: 0;right: -80px;}
+.box05 .box05_chat .icon{position: absolute;top: 0;right: -50px;}
 
 .box05 .box05_accept{background-color: #000;border-radius: 0 20px 20px 20px;box-shadow: 0px 7px 21px 5px rgba(6,6,6,0.09);left: -30px;padding: 20px 20px 10px;position: absolute;top: 150px;color: #fff;width: 160px}
-.box05 .box05_accept .icon{position: absolute;top: 0;left: -75px;}
+.box05 .box05_accept .icon{position: absolute;top: 0;left: -50px;width: 40px}
 .box05 .box05_accept p{font-size: 18px;margin-bottom: 0}
 .box05 .box05_accept span,
 .box05 .box05_chat span{display: block;font-size: 24px;}
@@ -236,6 +236,7 @@ footer .foot_info address{font-size: 14px;text-align: right;line-height: 1.5em}
 #top_info h2{font-size: 52px;font-weight: bold;position: relative;padding-top: 15px;margin: 30px auto 15px;text-transform: capitalize;}
 #top_info h2::before{width: 50px;height: 4px;background: #000;position: absolute;top: 0;left: calc(50% - 25px);content: '';}
 #top_info p{font-size: 20px;margin:0 auto;width: 800px;}
+#top_info p a{font-size: 20px;margin:0 auto;width: 800px; color:#0000EE; text-decoration: underline;}
 
 /* SERVICES PAGE */
 .service_link{}
@@ -248,7 +249,7 @@ footer .foot_info address{font-size: 14px;text-align: right;line-height: 1.5em}
 .service_link ul li.current img{filter: grayscale(0)}
 .service_link ul li.current span{color: #000}
 
-.service_tab{}
+.service_tab{overflow: hidden}
 .service_tab .tab-content{height: 0;opacity: 0;visibility: hidden;width: 100%;position: absolute;top: 0;left: 0;transition: all ease 0.5s;padding-top: 40px;width: 800px;margin: 0 auto;}
 .service_tab .tab-content p{font-size: 18px;}
 .service_tab .tab-content.current::before{background: url('../images/service_txt_ic.png') center no-repeat;background-size: cover;width: 115px;height: 12px;position: absolute;top: 0;left: 0;content: '';}
@@ -266,6 +267,7 @@ footer .foot_info address{font-size: 14px;text-align: right;line-height: 1.5em}
 .about_value ul li.ic4{background: url('../images/about_ic_4.png') top center no-repeat;background-position: 0px -27px}
 .about_value ul li p{margin-bottom: 0;color: #8a8989;font-size: 18px;}
 .about_value ul li .big{color: #000;font-size: 20px;margin-bottom: 15px;}
+.about_value ul li p a{color: #1F77B4;font-size: 20px;margin-bottom: 15px; text-decoration-line: underline;}
 
 .about_team{margin: 100px auto 0;}
 .about_team ul{display: flex;flex-wrap: wrap}
@@ -327,8 +329,9 @@ footer .foot_info address{font-size: 14px;text-align: right;line-height: 1.5em}
 .join_recruit ul li span{font-size: 18px;position: absolute;bottom: 30px;left: 0;width: 100%;color: #8a8989;}
 
 /* CONTACT PAGE */
-.contact_form{margin: 0 auto 200px;width: 700px;display: flex;justify-content: space-between;flex-wrap: wrap;}
-.contact_form p{width: 340px;}
+.contact_form{margin: 0 auto 100px;width: 400px;}
+.contact_form p{display: flex;align-items: center;width: 100%;}
+.contact_form p img{width: 40px;margin-right: 15px}
 .contact_form p input,
 .contact_form p select,
 .contact_form textarea{background: #fff;border: 1px solid #ececec;border-radius: 0px;display: inline-block;height: 54px;width: 100%;padding: 10px 20px;}
@@ -341,14 +344,14 @@ footer .foot_info address{font-size: 14px;text-align: right;line-height: 1.5em}
 .contact_form .contact_file p{width: 40%;margin-bottom: 0}
 .contact_form .contact_file p input{border:none;background: none;padding: 0;height: 100%;}
 
-.contact_info{text-align: center;}
+.contact_info{text-align: center;margin-bottom: 100px;}
 .contact_info .title h3{font-size: 54px}
 .contact_info .title p{font-size: 24px;}
 .contact_info p{font-size: 20px}
 
 /* WORK PAGE */
 .work_temp{overflow: hidden}
-.work_temp.bg1{background: #34226C}
+.work_temp.bg1{background: #b0b2b7}
 .work_temp.bg2{background: #da6c00;
 background: -moz-linear-gradient(45deg, #da6c00 1%, #ffbc1b 100%);
 background: -webkit-linear-gradient(45deg, #da6c00 1%,#ffbc1b 100%);
@@ -377,17 +380,7 @@ background: linear-gradient(45deg, #1ab501 1%,#1edd00 100%);}
 .work_temp .work_temp_txt p{font-size: 24px;margin-bottom: 15px;color: #000}
 .work_temp .work_temp_txt .ic{margin-bottom: 0}
 .work_temp .work_temp_txt .big{font-size: 54px;font-weight: bold;line-height: 1em;margin-bottom: 0;text-shadow: 0px 8px 21px rgba(6,6,6,0.26);margin-bottom: 15px;letter-spacing: 0.05em}
-.work_temp .work_temp_txt .big_1{font-size: 54px;font-weight: bold;line-height: 1em;margin-bottom: 0;text-shadow: 0px 8px 21px rgba(6,6,6,0.26);margin-bottom: 15px;letter-spacing: 0.05em;color: #FFF}
 .work_temp .work_temp_txt .btn a{background: transparent;color: #000}
-.work_temp .work_temp_img{right: 0;position: absolute;top: 100px;}
-
-.work_temp .inner{display: flex;padding: 210px 0 110px;position: relative;align-items: center;}
-.work_temp .work_temp_txt_white{width: 400px}
-.work_temp .work_temp_txt_white p{font-size: 24px;margin-bottom: 15px;color: #FFF}
-.work_temp .work_temp_txt_white .ic{margin-bottom: 0}
-.work_temp .work_temp_txt_white .big{font-size: 54px;font-weight: bold;line-height: 1em;margin-bottom: 0;text-shadow: 0px 8px 21px rgba(6,6,6,0.26);margin-bottom: 15px;letter-spacing: 0.05em}
-.work_temp .work_temp_txt_white .big_1{font-size: 54px;font-weight: bold;line-height: 1em;margin-bottom: 0;text-shadow: 0px 8px 21px rgba(6,6,6,0.26);margin-bottom: 15px;letter-spacing: 0.05em;color: #FFF}
-.work_temp .work_temp_txt_white .btn a{background: transparent;color: #FFF}
 .work_temp .work_temp_img{right: 0;position: absolute;top: 100px;}
 
 .work_temp.work_temp_r .inner{justify-content: flex-end;}
@@ -462,14 +455,12 @@ background: linear-gradient(45deg, #1ab501 1%,#1edd00 100%);}
 .work_comment .avatar::before{width: 30px;height: 3px;position: absolute;bottom: 10px;left: calc(50% - 15px);content: '';background: #000;}
 .work_comment .name{font-size: 20px;font-weight: bold;color: #000;margin-bottom: 15px;}
 
-
 .work_comment.premise_ic .inner::before{background: url('../images/work_premise_ic.png') center no-repeat;}
 .work_comment.pinthub_ic .inner::before{background: url('../images/work_pinthub_ic.png') center no-repeat;}
 .work_comment.fish_ic .inner::before{background: url('../images/work_fish_ic.png') center no-repeat;}
 
 
 /* WORK PAGE BACKGROUND */
-
 #premise .work_intro{background: url('../images/work_premise_bg1.png') top center no-repeat;}
 #premise .work_client{background: url('../images/work_premise_bg2.png') top left no-repeat;background-position: -240px -190px;}
 #pinthub .work_intro{background: url('../images/work_pinthub_bg1.png') top center no-repeat;}
@@ -481,7 +472,46 @@ background: linear-gradient(45deg, #1ab501 1%,#1edd00 100%);}
 #appoint .work_intro{background: url('../images/work_appoint_bg1.png') top center no-repeat;}
 #appoint .work_client{background: url('../images/work_appoint_bg2.png') top left no-repeat;background-position: -240px -190px;}
 
+/* APPS DEMO PAGE */
+.app_demo_list{padding:50px 0 100px;border-top: 1px dashed #ccc}
+.app_demo_item{margin-bottom: 50px}
+.app_demo_item .app_demo_title{}
+.app_demo_item .app_demo_title dl{display: flex;justify-content: space-between;margin-bottom: 50px;}
+.app_demo_item .app_demo_title dt{width: 130px;height: 130px;}
+.app_demo_item .app_demo_title dt a{width: 100%;height: 100%;display: flex;align-items: center;justify-content: center;text-align: center;border-radius: 15px;overflow: hidden;}
+.app_demo_item .app_demo_title dt a img{max-width: 100%;max-height: 100%;width: auto;height: auto;}
+.app_demo_item .app_demo_title dd{width: calc(100% - 160px);}
+.app_demo_item .app_demo_title dd p{margin-bottom: 10px}
+.app_demo_item .app_demo_title dd .name{font-size: 24px;line-height: 1.2em;}
+.app_demo_item .app_demo_title dd .des{font-size: 16px}
+.app_demo_item .app_demo_title dd .company{font-size: 12px}
+.app_demo_item .app_demo_title dd .cate{border-radius: 30px;background: #1f1f1f;padding: 5px 15px;display: inline-block;text-align: center;margin-bottom: 0}
+.app_demo_item .app_demo_title dd .cate span{display: inline-block;color: #fff;position: relative;margin-right: 10px;padding-right: 10px;}
+.app_demo_item .app_demo_title dd .cate span::before{width: 1px;height: 100%;background: #fff;position: absolute;top: 0;right: 0;content: '';}
+.app_demo_item .app_demo_title dd .cate span:last-child{padding-right: 0;margin-right: 0;}
+.app_demo_item .app_demo_title dd .cate span:last-child::before{display: none}
+.app_demo_item .app_demo_title .ver{display: flex;flex-wrap: wrap;margin: 0 0 40px}
+.app_demo_item .app_demo_title .ver a{border-radius: 50px;border:1px solid #ccc;display: inline-block;padding: 5px 15px;text-align: center;margin-right: 20px;transition: all ease 0.2s;margin-bottom: 10px}
+
+.app_demo_item .app_demo_img{}
+.app_demo_item .app_demo_img ul{display: flex;flex-wrap: wrap;}
+.app_demo_item .app_demo_img ul li{width: calc((100% - 60px) / 5);margin:0 15px 15px 0;}
+.app_demo_item .app_demo_img ul li:nth-child(5n + 5){margin-right: 0}
+.app_demo_item .app_demo_img ul li a{display: flex;align-items: center;justify-content: center;text-align: center;width: 100%;height: 100%;border-radius: 15px;overflow: hidden;box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 1px, rgba(0, 0, 0, 0.1) 0px 1px 3px -2px, rgba(0, 0, 0, 0.15) 0px 5px 7px -5px;}
+
+.app_other{padding-top: 100px}
+.app_other .ttl{margin-bottom: 50px;}
+.app_other .app_demo_title dl{margin-bottom: 30px}
+.app_other .app_demo_title dt{width: 60px;height: 60px;}
+.app_other .app_demo_title dd{width: calc(100% - 90px)}
+.app_other .app_demo_img{}
+.app_other .app_demo_img ul li:nth-child(n + 6){display: none;}
+
+
+
 /* ALL LAST CHILD */
+.app_demo_item:last-child,
+.app_demo_item .app_demo_title dd p:last-child,
 #top_info p:last-child{margin-bottom: 0}
 
 
