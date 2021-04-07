@@ -278,11 +278,12 @@
   padding: 20px 0;
   font-size: 30px;
 }
-
+.zalo-chat-widget{right:8px !important;top: inherit !important; bottom: 160px !important;}
+.fb_dialog_content iframe{bottom: 105px !important;right:15px !important}
 </style>
 <div class="grid-container">
   <div class="item2"><!-- Load Facebook SDK for JavaScript -->
-      <div id="fb-root"></div>
+      <div id="fb-root" class="fb_dialog_content"></div>
       <script>
         window.fbAsyncInit = function() {
           FB.init({
