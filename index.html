@@ -258,7 +258,30 @@
         </footer>
         <p id="btn_top"><img src="./images/btn_top.png" alt="Back To Top"></p>
     </div>
-	<!-- Load Facebook SDK for JavaScript -->
+	<style>
+.item2 { grid-area: header; }
+.item3 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+    grid-template-areas:
+    'header header header header header header'
+    'footer footer footer footer footer footer';
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+</style>
+<div class="grid-container">
+  <div class="item2"><!-- Load Facebook SDK for JavaScript -->
       <div id="fb-root"></div>
       <script>
         window.fbAsyncInit = function() {
@@ -280,10 +303,14 @@
       <div class="fb-customerchat"
         attribution="install_email"
         page_id="112121470368325">
-      </div>
-	<div class="zalo-chat-widget" data-oaid="395543521531761746" data-welcome-message="Bạn cần team mình hỗ trợ vấn đề gì ?" data-autopopup="0" data-width="350" data-height="420"></div>
+      </div></div>
+  <div class="item3"><div class="zalo-chat-widget" data-oaid="395543521531761746" data-welcome-message="Bạn cần team mình hỗ trợ vấn đề gì ?" data-autopopup="0" data-width="350" data-height="420"></div>
 
-<script src="https://sp.zalo.me/plugins/sdk.js"></script>
+<script src="https://sp.zalo.me/plugins/sdk.js"></script></div>  
+</div>
+	
+	
+	
     <script src="./js/aos.js"></script>
     <script src="./js/slick.min.js"></script>
     <script src="./js/main.js"></script>
