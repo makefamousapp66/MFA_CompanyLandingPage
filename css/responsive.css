@@ -33,7 +33,7 @@ nav ul li a:hover::before{opacity: 1;}
 .app_demo_item .app_demo_title .ver a:hover{background: #ccc}
 
 .zalo-chat-widget{right:8px !important;top: inherit !important; bottom: 160px !important;}
-.fb_dialog_content iframe{bottom: 105px !important;right:15px !important}
+.fb_dialog_content iframe{bottom: 105px !important;right:15px !important;margin: 0 !important}
 
 }
 
