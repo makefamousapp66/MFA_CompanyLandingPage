@@ -535,18 +535,28 @@ background: linear-gradient(45deg, #1ab501 1%,#1edd00 100%);}
 .fb_dialog_content iframe{bottom: 105px !important;right:15px !important;margin: 0 !important}
 
 
+
+#blogid {
+	display:inline;
+	background: url('../images/join_bg.png') top center no-repeat;
+}
+
+
 .blog {
-	position: absolute;
+	position: relative;
 	background-color:'white';
-	padding: 100px;
+	padding: 50px 120px 50px;
 }
 .blog h1{
 	font-size: 45px;
 	font-weight: bold;
 }
-
-.blog h3{
+.blog h2{
 	font-size: 35px;
+	font-weight: bold;
+}
+.blog h3{
+	font-size: 30px;
 	font-weight: bold;
 	text-decoration: underline;
 }
