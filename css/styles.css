@@ -126,8 +126,8 @@ nav ul li a::before{position: absolute;bottom: -2px;left: 0;background: #000;hei
 .ttl h3{line-height: 1.4em;font-size: 84px;color:#f4f4f4;text-transform: capitalize;font-weight: 900;position: absolute;top: -60px;left: -15px;z-index: -1;letter-spacing: 0.05em}
 .ttl p{font-size: 24px;}
 
-.ttl.center{}
-.ttl.center h3{width: 100%;left: 0}
+.ttl.center{padding-top: 10%;}
+.ttl.center h3{width: 100%;left: 0; padding-top: 5%;}
 .ttl.center::before{left: calc(50% - 5px)}
 .ttl.center::after{left: calc(50% - 28px)}
 
