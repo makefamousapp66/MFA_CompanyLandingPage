@@ -60,7 +60,7 @@ nav{z-index: 6;}
 nav.active ul{border-bottom: none;}
 nav .inner{display: flex;align-items: center;justify-content: space-between;}
 nav #logo{width: 100%;}
-nav #logo a{width: 450px;display: block}
+nav #logo a{width: 300px;display: block}
 nav ul{display: flex;justify-content: flex-end;align-items: center;border-bottom: 1px solid #ededed;flex-shrink: 0}
 nav ul li{margin: 0 0 0 100px;}
 nav ul li:first-child{margin: 0}
