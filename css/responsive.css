@@ -356,6 +356,10 @@ nav ul li a:hover::before{opacity: 1;}
     #apps_demo .lb-nav a.lb-next{opacity: 1;display: block !important;opacity: 0.7;z-index: 10;}
     #apps_demo .lb-data .lb-close{position: fixed;top: 15px;right: 15px;z-index: 11;}
 
+
+    /* SCREEN WORK LIST */
+    .work_img_app ul li img{width: 480px}
+
 }
 
 @media screen and (max-width: 560px) {
@@ -369,6 +373,8 @@ nav ul li a:hover::before{opacity: 1;}
     .work_service ul li{width: 48%;margin-right: 4%}
     .work_service ul li:nth-child(2n + 2),
     .work_service ul li:last-child{margin-right: 0}
+
+    .work_img_app ul li img{width: 240px}
 }
 
 @media screen and (max-width: 420px) {
