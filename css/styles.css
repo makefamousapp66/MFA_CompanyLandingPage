@@ -136,6 +136,7 @@ nav ul li a::before{position: absolute;bottom: -2px;left: 0;background: #000;hei
 .box01 .box01_ct{display: flex;justify-content: space-between;position: relative;padding-top: 180px;}
 .box01 .box01_txt{width: 800px;padding: 0 15px;}
 .box01 .box01_txt h2{font-size: 60px;font-weight: bold;letter-spacing: 0.05em;margin-bottom: 10px;}
+.box01 .box01_txt h1{font-size: 60px;font-weight: bold;letter-spacing: 0.05em;margin-bottom: 10px;}
 .box01 .box01_txt p{font-size: 24px;line-height: 1.3em;color: #8a8989}
 .box01 .box01_img{width: 450px;position: absolute;top: 15px;right: -26px;}
 .box01 .box01_img img{position: relative;z-index: 3;}
@@ -234,6 +235,7 @@ footer .foot_info address{font-size: 14px;text-align: right;line-height: 1.5em}
 /* TOP INFO */
 #top_info{text-align: center;color: #000;background: url('../images/top_info_bg2.png') top center no-repeat;padding: 200px 0 50px;margin-bottom: 50px}
 #top_info h2{font-size: 52px;font-weight: bold;position: relative;padding-top: 15px;margin: 30px auto 15px;text-transform: capitalize;}
+#top_info h1{font-size: 52px;font-weight: bold;position: relative;padding-top: 15px;margin: 30px auto 15px;text-transform: capitalize;}
 #top_info h2::before{width: 50px;height: 4px;background: #000;position: absolute;top: 0;left: calc(50% - 25px);content: '';}
 #top_info p{font-size: 20px;margin:0 auto;width: 800px;}
 #top_info p a{font-size: 20px;margin:0 auto;width: 800px; color:#0000EE; text-decoration: underline;}
@@ -536,50 +538,5 @@ background: linear-gradient(45deg, #1ab501 1%,#1edd00 100%);}
 
 
 
-#blogid {
-	display:inline;
-	background: url('../images/join_bg.png') top center no-repeat;
-}
-
-
-.blog {
-	position: relative;
-	background-color:'white';
-	padding: 50px 120px 50px;
-}
-.blog h1{
-	font-size: 45px;
-	font-weight: bold;
-}
-.blog h2{
-	font-size: 35px;
-	font-weight: bold;
-}
-.blog h3{
-	font-size: 30px;
-	font-weight: bold;
-	text-decoration: underline;
-}
-
-.blog p{
-	font-size: 25px;
-	line-height: 35px;
-}
-
-.blog a{
-	text-decoration: underline;
-	color: #1F77B4;
-}
-
-.blog img{
-	width: 900px;
-	height: auto;
-}
-
-.blogi {
-	width: "100%";
-	text-align: center;
-	padding: 20px;
-}
 
 
