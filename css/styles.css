@@ -136,7 +136,7 @@ nav ul li a::before{position: absolute;bottom: -2px;left: 0;background: #000;hei
 .box01 .box01_ct{display: flex;justify-content: space-between;position: relative;padding-top: 180px;}
 .box01 .box01_txt{width: 800px;padding: 0 15px;}
 .box01 .box01_txt h2{font-size: 60px;font-weight: bold;letter-spacing: 0.05em;margin-bottom: 10px;}
-.box01 .box01_txt h1{font-size: 60px;font-weight: bold;letter-spacing: 0.05em;margin-bottom: 10px;}
+.box01 .box01_txt h1{font-size: 60px;font-weight: bold;margin-bottom: 10px;}
 .box01 .box01_txt p{font-size: 24px;line-height: 1.3em;color: #8a8989}
 .box01 .box01_img{width: 450px;position: absolute;top: 15px;right: -26px;}
 .box01 .box01_img img{position: relative;z-index: 3;}
