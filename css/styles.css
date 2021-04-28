@@ -537,6 +537,8 @@ background: linear-gradient(45deg, #1ab501 1%,#1edd00 100%);}
 .zalo-chat-widget{right:8px !important;top: inherit !important; bottom: 160px !important;z-index: 10 !important}
 .fb_dialog_content iframe{bottom: 105px !important;right:15px !important;margin: 0 !important}
 
+.item4{position: fixed;bottom: 240px;right: 15px;width: 50px}
+
 
 
 #blogid {
