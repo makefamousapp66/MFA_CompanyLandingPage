@@ -229,12 +229,14 @@ footer .foot_info address{font-size: 14px;text-align: right;line-height: 1.5em}
 .under{}
 .under .title{margin-bottom: 50px;}
 .under .title h3{font-size: 42px;text-align: center;letter-spacing: 0.05em;font-weight: bold;line-height: 1.5em;}
+.under .title h1{font-size: 42px;text-align: center;letter-spacing: 0.05em;font-weight: bold;line-height: 1.5em;}
 .under #main{margin-top: 0;}
 .under .box04{margin: 150px auto 200px;}
 
 /* TOP INFO */
 #top_info{text-align: center;color: #000;background: url('../images/top_info_bg2.png') top center no-repeat;padding: 200px 0 50px;margin-bottom: 50px}
 #top_info h2{font-size: 52px;font-weight: bold;position: relative;padding-top: 15px;margin: 30px auto 15px;text-transform: capitalize;}
+#top_info h3{font-size: 52px;font-weight: bold;position: relative;padding-top: 15px;margin: 30px auto 15px;text-transform: capitalize;}
 #top_info h1{font-size: 52px;font-weight: bold;position: relative;padding-top: 15px;margin: 30px auto 15px;text-transform: capitalize;}
 #top_info h2::before{width: 50px;height: 4px;background: #000;position: absolute;top: 0;left: calc(50% - 25px);content: '';}
 #top_info p{font-size: 20px;margin:0 auto;width: 800px;}
@@ -412,7 +414,7 @@ background: linear-gradient(45deg, #1ab501 1%,#1edd00 100%);}
 .work_col .work_col_txt p:last-child{margin-right: 0}
 .work_col .work_col_txt .ic{margin-bottom: 10;transform: translateX(-30px)}
 .work_col .work_col_txt .big{font-size: 54px;font-weight: bold;line-height: 1em;margin-bottom: 0;text-shadow: 0px 8px 21px rgba(6,6,6,0.26);margin-bottom: 15px;color: #000;position: relative;letter-spacing: 0.05em}
-.work_col .work_col_txt .big::before{background: #000;width: 50px;height: 4px;position: absolute;top: -20px;left: -15px;content: ''}
+/* .work_col .work_col_txt .big::before{background: #000;width: 50px;height: 4px;position: absolute;top: -20px;left: -15px;content: ''} */
 .work_col .work_col_txt .btn a{background: transparent;color: #000}
 .work_col .work_col_img{transform: translateX(15px);}
 .work_col .app_download{display: flex;}
