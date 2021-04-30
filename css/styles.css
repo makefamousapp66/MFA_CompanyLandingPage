@@ -136,6 +136,7 @@ nav ul li a::before{position: absolute;bottom: -2px;left: 0;background: #000;hei
 .box01 .box01_ct{display: flex;justify-content: space-between;position: relative;padding-top: 180px;}
 .box01 .box01_txt{width: 800px;padding: 0 15px;}
 .box01 .box01_txt h2{font-size: 60px;font-weight: bold;letter-spacing: 0.05em;margin-bottom: 10px;}
+.box01 .box01_txt h1{font-size: 60px;font-weight: bold;margin-bottom: 10px;}
 .box01 .box01_txt p{font-size: 24px;line-height: 1.3em;color: #8a8989}
 .box01 .box01_img{width: 450px;position: absolute;top: 15px;right: -26px;}
 .box01 .box01_img img{position: relative;z-index: 3;}
@@ -228,14 +229,18 @@ footer .foot_info address{font-size: 14px;text-align: right;line-height: 1.5em}
 .under{}
 .under .title{margin-bottom: 50px;}
 .under .title h3{font-size: 42px;text-align: center;letter-spacing: 0.05em;font-weight: bold;line-height: 1.5em;}
+.under .title h1{font-size: 42px;text-align: center;letter-spacing: 0.05em;font-weight: bold;line-height: 1.5em;}
 .under #main{margin-top: 0;}
 .under .box04{margin: 150px auto 200px;}
 
 /* TOP INFO */
 #top_info{text-align: center;color: #000;background: url('../images/top_info_bg2.png') top center no-repeat;padding: 200px 0 50px;margin-bottom: 50px}
 #top_info h2{font-size: 52px;font-weight: bold;position: relative;padding-top: 15px;margin: 30px auto 15px;text-transform: capitalize;}
+#top_info h3{font-size: 52px;font-weight: bold;position: relative;padding-top: 15px;margin: 30px auto 15px;text-transform: capitalize;}
+#top_info h1{font-size: 52px;font-weight: bold;position: relative;padding-top: 15px;margin: 30px auto 15px;text-transform: capitalize;}
 #top_info h2::before{width: 50px;height: 4px;background: #000;position: absolute;top: 0;left: calc(50% - 25px);content: '';}
 #top_info p{font-size: 20px;margin:0 auto;width: 800px;}
+#top_info p a{font-size: 20px;margin:0 auto;width: 800px; color:#0000EE; text-decoration: underline;}
 
 /* SERVICES PAGE */
 .service_link{}
@@ -265,12 +270,8 @@ footer .foot_info address{font-size: 14px;text-align: right;line-height: 1.5em}
 .about_value ul li.ic3{background: url('../images/about_ic_3.png') top center no-repeat; text-align: justify;}
 .about_value ul li.ic4{background: url('../images/about_ic_4.png') top center no-repeat;background-position: 0px -27px; text-align: justify;}
 .about_value ul li p{margin-bottom: 0;color: #8a8989;font-size: 18px;}
-
-.about_value ul li .big{color: #000;font-size: 20px;margin-bottom: 15px;}
-
 .about_value ul li .big{color: #000; font-size: 20px; margin-bottom: 15px; text-align: center;}
 .about_value ul li p a{color: #1F77B4;font-size: 20px;margin-bottom: 15px; text-decoration-line: underline;}
-
 
 .about_team{margin: 100px auto 0;}
 .about_team ul{display: flex;flex-wrap: wrap}
@@ -413,7 +414,7 @@ background: linear-gradient(45deg, #1ab501 1%,#1edd00 100%);}
 .work_col .work_col_txt p:last-child{margin-right: 0}
 .work_col .work_col_txt .ic{margin-bottom: 10;transform: translateX(-30px)}
 .work_col .work_col_txt .big{font-size: 54px;font-weight: bold;line-height: 1em;margin-bottom: 0;text-shadow: 0px 8px 21px rgba(6,6,6,0.26);margin-bottom: 15px;color: #000;position: relative;letter-spacing: 0.05em}
-.work_col .work_col_txt .big::before{background: #000;width: 50px;height: 4px;position: absolute;top: -20px;left: -15px;content: ''}
+/* .work_col .work_col_txt .big::before{background: #000;width: 50px;height: 4px;position: absolute;top: -20px;left: -15px;content: ''} */
 .work_col .work_col_txt .btn a{background: transparent;color: #000}
 .work_col .work_col_img{transform: translateX(15px);}
 .work_col .app_download{display: flex;}
@@ -540,51 +541,5 @@ background: linear-gradient(45deg, #1ab501 1%,#1edd00 100%);}
 .item4{position: fixed;bottom: 240px;right: 15px;width: 50px}
 
 
-
-#blogid {
-	display:inline;
-	background: url('../images/join_bg.png') top center no-repeat;
-}
-
-
-.blog {
-	position: relative;
-	background-color:'white';
-	padding: 50px 120px 50px;
-}
-.blog h1{
-	font-size: 45px;
-	font-weight: bold;
-}
-.blog h2{
-	font-size: 35px;
-	font-weight: bold;
-}
-.blog h3{
-	font-size: 30px;
-	font-weight: bold;
-	text-decoration: underline;
-}
-
-.blog p{
-	font-size: 25px;
-	line-height: 35px;
-}
-
-.blog a{
-	text-decoration: underline;
-	color: #1F77B4;
-}
-
-.blog img{
-	width: 900px;
-	height: auto;
-}
-
-.blogi {
-	width: "100%";
-	text-align: center;
-	padding: 20px;
-}
 
 
