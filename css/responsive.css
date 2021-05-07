@@ -133,6 +133,7 @@ nav ul li a:hover::before{opacity: 1;}
     .box01 .box01_txt{padding: 0}
     .box01 .box01_txt h2{text-align: center;}
     .box01 .box01_txt p{text-align: center;font-size: 16px;font-weight: 300;line-height: 1.75em}
+    .box01 .box01_txt h1{font-size: 8vw}
     
     .box02{margin-bottom: 50px}
     .box02 .box02_list{margin-top: 30px}
