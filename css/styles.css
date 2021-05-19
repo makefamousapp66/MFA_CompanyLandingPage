@@ -218,10 +218,17 @@ footer .foot_link p a{color: #8a8989}
 footer .foot_link p a img{filter: grayscale(1);margin-right: 10px}
 footer .foot_link p a:hover img{filter: grayscale(0)}
 
-footer .foot_info{width: 300px;display: flex;justify-content: flex-end;flex-direction: column;align-items: flex-end}
+footer .foot_contact{align-items: flex-end; display: flex;}
+footer .foot_contact ul{ margin: 0 0 0 20px}
+footer .foot_contact ul li{ font-size: 16px;}
+footer .foot_contact ul li a{color: #0000EE; }
+
+footer .foot_info{width: 200px;display: flex;justify-content: flex-end;flex-direction: column;align-items: flex-end}
 footer .foot_info p{width: 150px;margin-bottom: 10px}
 footer .foot_info address{font-size: 14px;text-align: right;line-height: 1.5em}
 
+footer .foot_certificate{justify-content: center; background-color: #F2F2F2 ; max-height: 150px; display: block;}
+footer .foot_certificate p{padding:5px 0 5px; font-size: 10px; text-align: center;}
 
 /*==========================================================================*/
 /*                              CHILD PAGE                                  */
@@ -410,7 +417,7 @@ background: linear-gradient(45deg, #1ab501 1%,#1edd00 100%);}
 .work_col{padding-top: 100px}
 .work_col .inner{display: flex;justify-content: space-between;align-items: center;position: relative;}
 .work_col .work_col_txt{width: 600px}
-.work_col .work_col_txt p{font-size: 24px; text-align: left ; text-align: justify ;margin-bottom: 15px;color: #8a8989}
+.work_col .work_col_txt p{font-size: 24px; text-align: left;margin-bottom: 15px;color: #8a8989}
 .work_col .work_col_txt p:last-child{margin-right: 0}
 .work_col .work_col_txt .ic{margin-bottom: 10;transform: translateX(-30px)}
 .work_col .work_col_txt .big{font-size: 54px;font-weight: bold;line-height: 1em;margin-bottom: 0;text-shadow: 0px 8px 21px rgba(6,6,6,0.26);margin-bottom: 15px;color: #000;position: relative;letter-spacing: 0.05em}
