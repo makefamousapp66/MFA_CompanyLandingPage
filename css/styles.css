@@ -421,6 +421,7 @@ background: linear-gradient(45deg, #1ab501 1%,#1edd00 100%);}
 .work_col .work_col_txt p:last-child{margin-right: 0}
 .work_col .work_col_txt .ic{margin-bottom: 10;transform: translateX(-30px)}
 .work_col .work_col_txt .big{font-size: 54px;font-weight: bold;line-height: 1em;margin-bottom: 0;text-shadow: 0px 8px 21px rgba(6,6,6,0.26);margin-bottom: 15px;color: #000;position: relative;letter-spacing: 0.05em}
+.work_col .work_col_txt h1{font-size: 54px;font-weight: bold;line-height: 1em;margin-bottom: 0;text-shadow: 0px 8px 21px rgba(6,6,6,0.26);margin-bottom: 15px;color: #000;position: relative;letter-spacing: 0.05em}
 /* .work_col .work_col_txt .big::before{background: #000;width: 50px;height: 4px;position: absolute;top: -20px;left: -15px;content: ''} */
 .work_col .work_col_txt .btn a{background: transparent;color: #000}
 .work_col .work_col_img{transform: translateX(15px);}
