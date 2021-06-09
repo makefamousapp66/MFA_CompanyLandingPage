@@ -56,6 +56,31 @@
         ]
     },
     {
+        "name": "Kha Lee",
+        "job": "Developer",
+        "conten": "Kinh nghiệm phát triển các ứng dụng di động cho doanh nghiệp",
+        "img": "https://makefamousapp.com/images/kha_lee.png",
+        "phone": "0358 392 954",
+        "email": "khalb93@gmail.com",
+        "address": "133 Ni Sư Huỳnh Liên, P.10, Q.Tân Bình, TP. Hồ Chí Minh",
+        "project": [
+            {
+                "img": "https://makefamousapp.com/images/News/news.png"
+            },
+            {
+                "img": "https://makefamousapp.com/images/timetree/timetree.png"
+            },
+            {
+                "img": "https://makefamousapp.com/images/smarthome1/smarthome.png"
+            }
+        ],
+        "PresonalProject": [
+            {
+                "img": "https://makefamousapp.com/images/travel/travel.png"
+            }
+        ]
+    },
+    {
         "name": "Phúc Lê",
         "job": "Android Developer",
         "conten": "Kinh nghiệm phát triển các ứng dụng di động cho doanh nghiệp",
@@ -110,7 +135,7 @@
         "name": "Tấn Trường",
         "job": "Mobile Expert",
         "conten": "Kinh nghiệm phát triển các ứng dụng di động cho doanh nghiệp",
-        "img": "https://makefamousapp.com/images/box04_staff_4.png",
+        "img": "https://makefamousapp.com/images/box04_staff_5.png",
         "phone": "0909 179 042",
         "email": "linkedin.com/in/tan-truong-217534161",
         "address": "133 Ni Sư Huỳnh Liên, P.10, Q.Tân Bình, TP. Hồ Chí Minh",
